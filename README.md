@@ -1,4 +1,4 @@
 # Software Testing Class 2024
 
-## commits in the repository must follow the [conventional commits specification](#[installation](https://www.conventionalcommits.org/en/v1.0.0/#specification)https://www.conventionalcommits.org/en/v1.0.0/#specification)
+## commits in the repository must follow the [conventional commits specification](https://www.conventionalcommits.org/en/v1.0.0/#specification)
 
