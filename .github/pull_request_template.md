@@ -2,38 +2,45 @@
 
 ## Description
 
-Please include a summary of the change and which issue is fixed. Also include relevant motivation and context. List any dependencies that are required for this change.
+**Summary of Changes:**
+Please provide a concise summary of the changes made in this pull request, including the motivation and context behind these changes. Mention any dependencies that are required for this change.
 
-Fixes # (issue number)
+**Related Issue:**
+Fixes #(issue number)
 
-## Type of change
+## Type of Change
 
-Please delete options that are not relevant.
+Please check the options that are relevant to your changes:
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
+- [ ] Breaking change (fix or feature that would potentially cause existing functionality to not work as expected)
+- [ ] Documentation update (changes in the documentation)
 
-## How Has This Been Tested?
+## Testing
 
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration.
+**Test Environment:**
+Please detail your test environment, including firmware version, hardware, toolchain, SDK, etc.
+
+**Test Cases:**
+Describe the tests you have performed to verify your changes. Provide clear instructions so we can reproduce these tests. Also, list any relevant details for your test configuration.
 
 - [ ] Test A
 - [ ] Test B
 
-## Checklist:
+## Checklist
 
-Before you submit your pull request, please make sure you have completed the following steps:
+Before submitting your pull request, please review the following:
 
-- [ ] I have performed a self-review of my own code.
-- [ ] I have commented my code, particularly in hard-to-understand areas.
-- [ ] I have made corresponding changes to the documentation.
-- [ ] My changes generate no new warnings.
-- [ ] I have added tests that prove my fix is effective or that my feature works.
-- [ ] New and existing unit tests pass locally with my changes.
-- [ ] Any dependent changes have been merged and published in downstream modules.
+- [ ] I have followed the coding/style guidelines of this project.
+- [ ] I have self-reviewed my own code.
+- [ ] I have commented on my code, particularly in complex or unclear areas.
+- [ ] I have updated the documentation accordingly (if applicable).
+- [ ] My changes do not generate any new warnings.
+- [ ] I have added tests that prove my changes are effective or that my feature works.
+- [ ] New and existing unit tests pass locally with my modifications.
+- [ ] Any dependent changes have been merged and published in related modules.
 
-## Additional Information
+## Additional Notes
 
-Any additional information, configuration, or data that might be necessary to reproduce the issue.
+Include any additional information, notes, or context that may be relevant to the reviewers.
