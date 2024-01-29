@@ -1,2 +1,2 @@
-pre-commit == 
+pre-commit == 3.6.0
 Python == 3.11.0
