@@ -1,3 +1,9 @@
 {
-  "conventionalCommits.scopes": ["Functional Change"]
+  "conventionalCommits.scopes": [
+    "Functional Change",
+    "updated ",
+    "Move Files",
+    "Github Settings ",
+    "env requiremnts "
+  ]
 }
