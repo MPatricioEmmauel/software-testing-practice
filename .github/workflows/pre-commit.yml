@@ -1,5 +1,3 @@
-name: pre-commit
-
 on:
   pull_request:
   push:
@@ -9,6 +7,21 @@ jobs:
   pre-commit:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-python@v3
-    - uses: pre-commit/action@v3.0.0
+      - uses: actions/checkout@v3
+
+      # Set up the specific version of Python required by your project
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.11" # Reemplaza esto con la versión de Python que necesitas
+
+      # Optional: Install dependencies if required by any of your pre-commit hooks
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # Si tienes un requirements.txt puedes descomentar la siguiente línea
+          # pip install -r requirements.txt
+
+      # Run pre-commit hooks
+      - name: Run pre-commit
+        uses: pre-commit/action@v3.0.0
